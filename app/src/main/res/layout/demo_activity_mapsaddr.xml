@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.demo.process.MapsAddrActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rvly_header_00"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mrly_back_00"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+        <TextView
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Pencarian Alamat"
+            android:layout_toRightOf="@+id/mrly_back_00"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/imvw_search_00"
+            android:padding="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_alignParentEnd="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/rvly_header_00"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:id="@+id/frgm_map_00"
+            android:layout_below="@+id/rvly_header_00"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            tools:context=".store.MapsAddrAct" />
+        <RelativeLayout
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:layout_weight="1"
+            android:background="#EEEEEE"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/txvw_addres_00"
+                android:textSize="13sp"
+                android:textColor="#de000000"
+                android:text="Jl. raya tebet no 16A, Tebet timur raya Jakarta Selatan"
+                android:fontFamily="sans-serif-medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_below="@+id/txvw_addres_00"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtx_address_00"
+                    android:hint="Cari Alamat..."
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:background="@drawable/shape_ev"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_toStartOf="@id/imbtn_search_00"
+                    android:layout_marginEnd="8dp"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/imbtn_search_00"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_search_24"
+                    android:tint="@color/white"
+                    android:scaleType="centerInside"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/ripple_btn"/>
+
+
+            </RelativeLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/mrly_next_00"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:text="Simpan"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

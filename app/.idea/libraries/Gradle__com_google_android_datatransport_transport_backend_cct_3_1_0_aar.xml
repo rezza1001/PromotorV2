@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.datatransport:transport-backend-cct:3.1.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/b09d85bb3461801bda0758c9d496e3cf/transport-backend-cct-3.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/f627ebb646bf8d15c2ae91730db0b486/transport-backend-cct-3.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/f627ebb646bf8d15c2ae91730db0b486/transport-backend-cct-3.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/f627ebb646bf8d15c2ae91730db0b486/transport-backend-cct-3.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f627ebb646bf8d15c2ae91730db0b486/transport-backend-cct-3.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/f627ebb646bf8d15c2ae91730db0b486/transport-backend-cct-3.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/2e9df48827ec747e68f8f5d9ca109e9e/jetified-transport-backend-cct-3.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/2e9df48827ec747e68f8f5d9ca109e9e/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/f9e01f9b95edc52143fb68beb4255c8f/jetified-transport-backend-cct-3.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/f9e01f9b95edc52143fb68beb4255c8f/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.google.android.datatransport/transport-backend-cct/3.1.0/f0401aa91a9fde5201e6c9f2769fdff6b856627/transport-backend-cct-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b599a</color>
+    <color name="colorPrimaryDark">#0b599a</color>
+    <color name="colorAccent">#21d081</color>
+
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="but_color">#0b599a</color>
+    <color name="but_cancel">#ff7c04</color>
+    <color name="lupa_pass_color">#0288d1</color>
+    <color name="required_color">#dd2c00</color>
+
+    <!--dialog-->
+    <color name="dialog_background">#48000000</color>
+    <color name="dialog_title_text">#cc000000</color>
+    <color name="dialog_support_text">#90000000</color>
+    <color name="dialog_container">#FFFFFF</color>
+    <color name="dialog_btn_text">#5C1349</color>
+
+    <!--tablayout-->
+
+</resources>

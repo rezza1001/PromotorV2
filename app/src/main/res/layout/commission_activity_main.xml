@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rvly_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <RelativeLayout
+            android:id="@+id/rvly_back_00"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_toEndOf="@+id/rvly_back_00"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Insentif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/rvly_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/rvly_header_00"
+        android:layout_marginTop="0.5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/lnly_date_00"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_ev"
+            android:gravity="center_vertical">
+            <Spinner
+                android:id="@+id/spnr_demo_00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#28000000"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:text="Tanggal Kirim"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#de000000"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:text="Jumlah Unit"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:paddingStart="5dp"
+                android:textColor="#de000000"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:text="Insetif Langsung"
+                android:paddingStart="5dp"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#de000000"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvw_data_00"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="1dp"
+            android:background="@drawable/bkg_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

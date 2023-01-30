@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/header_standard" android:id="@+id/incl_header_00"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/incl_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jadwal Demo"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txvw_date_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:text="Demo 1   14 Januari 2019 10:00"
+                android:layout_marginBottom="8dp" />
+
+            <!--kordinator-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kordinator"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txvw_coordinator_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:text="name 08xx" />
+
+            <TextView
+                android:id="@+id/txvw_addres_00"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:id="@+id/txvw_note_00"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+            <TextView
+                android:id="@+id/txvw_ktp_00"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. KTP xxxx"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_name_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_phone_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_address_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/bbtn_add_00"
+                android:layout_width="wrap_content"
+                android:background="@drawable/ripple_btn"
+                android:text="Tambah JP"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_height="45dp"
+                android:layout_marginTop="@dimen/margin_for_form" />
+
+            <LinearLayout
+                android:weightSum="10"
+                android:background="#28000000"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:text="Nama JP"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:textColor="#de000000"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:text="No. HP"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:textColor="#de000000"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:text="Alamat"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:textColor="#de000000"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvw_jp_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/bbtn_save_00"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ripple_btn"
+                android:text="Selesai"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

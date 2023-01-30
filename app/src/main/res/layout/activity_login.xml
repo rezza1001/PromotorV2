@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.LoginActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_marginTop="104dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logowadaro"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:id="@+id/llForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_below="@+id/ivLogo"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User" />
+
+        <EditText
+            android:id="@+id/edtx_username_00"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/shape_ev"
+            android:gravity="center_vertical"
+            android:inputType="textCapCharacters"
+            android:maxLength="20"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/edtx_password_00"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_ev"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_btn"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLupaPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/llForm"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/lupa_password"
+        android:textColor="@color/lupa_pass_color"
+        android:background="@drawable/ripple_tv"/>
+
+    <TextView
+        android:id="@+id/txvw_version_00"
+        android:text="Version"
+        android:textSize="12sp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

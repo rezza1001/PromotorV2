@@ -1,0 +1,74 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wdullaer:materialdatetimepicker:3.6.4@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/25304f204f359d451edca4303dc9f3b9/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/25304f204f359d451edca4303dc9f3b9/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/25304f204f359d451edca4303dc9f3b9/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/7d507db4dde08f8b51c9b4ef1a1ea167/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/7d507db4dde08f8b51c9b4ef1a1ea167/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/7d507db4dde08f8b51c9b4ef1a1ea167/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/f2e4259b32b013dd1dd3803106007aee/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/f2e4259b32b013dd1dd3803106007aee/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/f2e4259b32b013dd1dd3803106007aee/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/a73c7550c0e6bb48cb28f92e34c084ba/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/a73c7550c0e6bb48cb28f92e34c084ba/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/a73c7550c0e6bb48cb28f92e34c084ba/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/7cc8ee899a2e8da5b7f96de64fea07d4/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/7cc8ee899a2e8da5b7f96de64fea07d4/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/7cc8ee899a2e8da5b7f96de64fea07d4/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/afa021eedeb2b631163c4bbd1246d1f6/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/afa021eedeb2b631163c4bbd1246d1f6/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/afa021eedeb2b631163c4bbd1246d1f6/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/1f1f7375dd42104e17c03973c10412ae/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/1f1f7375dd42104e17c03973c10412ae/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/1f1f7375dd42104e17c03973c10412ae/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/73cf391c8c38f4734b34330eeff47edb/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/73cf391c8c38f4734b34330eeff47edb/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/73cf391c8c38f4734b34330eeff47edb/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/bc3e31db129edbcadd4dda9dd493c0ff/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/bc3e31db129edbcadd4dda9dd493c0ff/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/bc3e31db129edbcadd4dda9dd493c0ff/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/03baaa48b36e8199e69c1ad7780d2ef2/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/03baaa48b36e8199e69c1ad7780d2ef2/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/03baaa48b36e8199e69c1ad7780d2ef2/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99a29085ef4d8dacf667666998302036/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99a29085ef4d8dacf667666998302036/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99a29085ef4d8dacf667666998302036/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/433e54a04612d67ab9b3047a6d575b36/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/433e54a04612d67ab9b3047a6d575b36/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/433e54a04612d67ab9b3047a6d575b36/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/59946d0442b43b95e822c7bf95ae20e9/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/59946d0442b43b95e822c7bf95ae20e9/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/59946d0442b43b95e822c7bf95ae20e9/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/85afdd6a5955794a63b39a98b5770fe6/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/85afdd6a5955794a63b39a98b5770fe6/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/85afdd6a5955794a63b39a98b5770fe6/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/fc2b41c72d456c9c27278db87cc0c24b/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/fc2b41c72d456c9c27278db87cc0c24b/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/fc2b41c72d456c9c27278db87cc0c24b/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/daffdf715b10553c64b8f725a6321990/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/daffdf715b10553c64b8f725a6321990/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/daffdf715b10553c64b8f725a6321990/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/16eed71b0d45d2b98080c3bde44aa785/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/16eed71b0d45d2b98080c3bde44aa785/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/16eed71b0d45d2b98080c3bde44aa785/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/93e5674c641866094aa39931ff9ff341/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/93e5674c641866094aa39931ff9ff341/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/93e5674c641866094aa39931ff9ff341/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/75369cd1edc49b74d074299672db5a73/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/75369cd1edc49b74d074299672db5a73/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/75369cd1edc49b74d074299672db5a73/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/dbcdd7bf01c5b7abce5b9a6ec2b95679/jetified-materialdatetimepicker-3.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/dbcdd7bf01c5b7abce5b9a6ec2b95679/jetified-materialdatetimepicker-3.6.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/dbcdd7bf01c5b7abce5b9a6ec2b95679/jetified-materialdatetimepicker-3.6.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.6.4/3845c9be8e096c3b2c93b55b7212e90855d9a94d/materialdatetimepicker-3.6.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.6.4/3845c9be8e096c3b2c93b55b7212e90855d9a94d/materialdatetimepicker-3.6.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.6.4/c2e83d8a5ed8f45a1a203e32bf5f38124e85054a/materialdatetimepicker-3.6.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.6.4/c2e83d8a5ed8f45a1a203e32bf5f38124e85054a/materialdatetimepicker-3.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

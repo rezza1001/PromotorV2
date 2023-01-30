@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-impl:20.0.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/37bd8514ba945d35a612a0d334dfa5fe/play-services-measurement-impl-20.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/cd3da5486154bff85505d8329a8de49c/play-services-measurement-impl-20.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-impl/20.0.2/6bc51b836b6df71a1582ce83f28caca56e70905e/play-services-measurement-impl-20.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

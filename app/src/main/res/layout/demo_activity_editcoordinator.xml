@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_standard" android:id="@+id/incl_header_00"/>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/svContent"
+        android:layout_below="@+id/incl_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <!--metode penyimpanan-->
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Metode Penyimpanan"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"/>
+
+                <Switch
+                    android:id="@+id/swtc_network_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txvw_network_00"
+                    android:layout_marginRight="4dp"/>
+
+                <TextView
+                    android:id="@+id/txvw_network_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/dialog_background"/>
+            </RelativeLayout>
+
+            <!--ktp-->
+            <!--nama koordinator-->
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_ktp_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--nama koordinator-->
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_name_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_phone_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/bbtn_tagaddress_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Tagging Alamat"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_btn"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+                <TextView
+                    android:id="@+id/txvw_longlat_00"
+                    android:layout_width="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_address_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--button-->
+            <Button
+                android:id="@+id/bbtn_save_00"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="3"
+                android:background="@drawable/ripple_btn"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

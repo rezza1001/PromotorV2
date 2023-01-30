@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_standard" android:id="@+id/incl_header_00"/>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/svContent"
+        android:layout_below="@+id/incl_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!--title-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Input Booking"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/txvw_date_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 Januari 2019"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <!--metode penyimpanan-->
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Metode Penyimpanan"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"/>
+
+                <Switch
+                    android:id="@+id/swtc_network_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txvw_network_00"
+                    android:layout_marginRight="4dp"/>
+
+                <TextView
+                    android:id="@+id/txvw_network_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/dialog_background"/>
+            </RelativeLayout>
+
+            <!--ktp-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. KTP / NIK Kordinator"
+                android:layout_marginTop="@dimen/margin_for_form"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/edtx_nik_00"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape_ev"
+                    android:layout_toLeftOf="@+id/bbtn_check_00"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignParentLeft="true"
+                    android:inputType="numberDecimal"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp" />
+
+                <Button
+                    android:id="@+id/bbtn_check_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ripple_btn"
+                    android:layout_alignParentRight="true"
+                    android:text="Cek NIK"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+            <!--nama koordinator-->
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_name_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--nama panggilan-->
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_nickname_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_phone_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.wadaro.promotor.util.MySpinnerView
+                android:id="@+id/spnr_city_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/bbtn_tagaddress_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Tagging Alamat"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_btn"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+                <TextView
+                    android:id="@+id/txvw_longlat_00"
+                    android:layout_width="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_address_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <!--catatan lokasi-->
+            <com.wadaro.promotor.util.FormEditext
+                android:id="@+id/edtx_note_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--jadwal demo-->
+
+            <com.wadaro.promotor.util.MySpinnerView
+                android:id="@+id/spnr_book_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--tanggal-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_for_form">
+
+                <TextView
+                    android:id="@+id/tvTanggalDemo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Demo"
+                    android:layout_alignParentLeft="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/required_color"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/tvTanggalDemo"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txvw_demodate_00"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape_ev"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_toLeftOf="@id/imbt_calendar_00"
+                    android:layout_marginRight="8dp"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/imbt_calendar_00"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_calendar"
+                    android:scaleType="centerInside"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/white"/>
+
+
+            </RelativeLayout>
+
+            <!--jam-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_for_form">
+
+                <TextView
+                    android:id="@+id/tvJamDemo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jam Demo"
+                    android:layout_alignParentLeft="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/required_color"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/tvJamDemo"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txvw_timedemo_00"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape_ev"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_toLeftOf="@id/imbt_time_00"
+                    android:layout_marginRight="8dp"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/imbt_time_00"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_time"
+                    android:scaleType="centerInside"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/white"
+                    />
+            </RelativeLayout>
+            <!--tanggal-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_for_form">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Kiriman"
+                    android:layout_alignParentLeft="true" />
+
+            </RelativeLayout>
+
+
+            <com.wadaro.promotor.util.MySpinnerView
+                android:id="@+id/spnr_delivery_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:paddingTop="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_for_form">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Foto Koordinator" />
+                    <RelativeLayout
+                        android:id="@+id/rvly_coordinator_00"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/backround_photo"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp">
+                        <ImageView
+                            android:id="@+id/imvw_icon_01"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_cloud_upload"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"/>
+                        <TextView
+                            android:text="Upload Foto"
+                            android:layout_below="@id/imvw_icon_01"
+                            android:layout_centerHorizontal="true"
+                            android:textSize="13sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/imvw_coordinator_00"
+                            app:riv_corner_radius="5dp"
+                            android:layout_margin="2dp"
+                            android:scaleType="fitCenter"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Foto Lokasi" />
+                    <RelativeLayout
+                        android:id="@+id/rvly_location_00"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/backround_photo"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp">
+                        <ImageView
+                            android:id="@+id/imvw_icon_02"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_cloud_upload"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"/>
+                        <TextView
+                            android:text="Upload Foto"
+                            android:layout_below="@id/imvw_icon_02"
+                            android:layout_centerHorizontal="true"
+                            android:textSize="13sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/imvw_location_00"
+                            app:riv_corner_radius="5dp"
+                            android:scaleType="fitCenter"
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--button-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp">
+                <Button
+                    android:id="@+id/bbtn_save_00"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/ripple_btn"
+                    android:text="Simpan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/bbtn_cancel_00"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple_btn_cancel"
+                    android:text="Batal"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

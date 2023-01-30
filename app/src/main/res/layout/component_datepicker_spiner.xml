@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#80575757"
+    android:id="@+id/lnly_root_00"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lnly_body_00"
+        android:background="@drawable/bkg_datepicket"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txvw_title_00"
+            android:gravity="center"
+            android:text="Pilih Tanggal"
+            android:textColor="#575757"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <View
+            android:background="#707070"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <DatePicker
+            android:id="@+id/dspn_date_00"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:background="#707070"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:id="@+id/rvly_action_00"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.wadaro.promotor.component.ActionButton
+                android:id="@+id/act_cancel_00"
+                android:layout_width="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"/>
+            <com.wadaro.promotor.component.ActionButton
+                android:id="@+id/act_ok_00"
+                android:layout_alignParentRight="true"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

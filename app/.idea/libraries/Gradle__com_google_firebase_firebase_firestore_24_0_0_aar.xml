@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-firestore:24.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/448e1f004246148f875002391b15c94f/firebase-firestore-24.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/62ef66d6e733977bf6aa6315f48f81f6/firebase-firestore-24.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/62ef66d6e733977bf6aa6315f48f81f6/firebase-firestore-24.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/62ef66d6e733977bf6aa6315f48f81f6/firebase-firestore-24.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62ef66d6e733977bf6aa6315f48f81f6/firebase-firestore-24.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/62ef66d6e733977bf6aa6315f48f81f6/firebase-firestore-24.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/4c5f1f540479718750b62a941f56e512/jetified-firebase-firestore-24.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/4c5f1f540479718750b62a941f56e512/jetified-firebase-firestore-24.0.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/8c27c1fe179ac71fa28acafb97befc6b/jetified-firebase-firestore-24.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/8c27c1fe179ac71fa28acafb97befc6b/jetified-firebase-firestore-24.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.0.0/6ba202e50b0b454bfb2ac7be6aeb6aeaca2ce2b1/firebase-firestore-24.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.0.0/a92485f319e53f8061658fed133103cfd62fee48/firebase-firestore-24.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

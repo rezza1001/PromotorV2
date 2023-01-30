@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "875981779254",
+    "firebase_url": "https://promotor-691b1.firebaseio.com",
+    "project_id": "promotor-691b1",
+    "storage_bucket": "promotor-691b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875981779254:android:901bed59addcf13f61c397",
+        "android_client_info": {
+          "package_name": "com.wadaro.promotor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875981779254-ch0vk88fg7c1k6mv7rhc5iofqnv6kfqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3RxDGa7c4oRMVT70HWLGQ9tscV8zbMag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875981779254-ch0vk88fg7c1k6mv7rhc5iofqnv6kfqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

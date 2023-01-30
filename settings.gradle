@@ -1,0 +1,3 @@
+include ':app'
+rootProject.name='promotorv2'
+include ':modulppob'

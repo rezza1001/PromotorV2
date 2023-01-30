@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_standard" android:id="@+id/incl_header_00"/>
+
+
+    <LinearLayout
+        android:id="@+id/llForm"
+        android:layout_below="@+id/incl_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password Lama" />
+
+        <EditText
+            android:id="@+id/edtx_old_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/shape_ev"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="Password Baru" />
+
+        <EditText
+            android:id="@+id/edtx_new_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_ev"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="Konfirmasi Password" />
+
+        <EditText
+            android:id="@+id/edtx_confrm_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_ev"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp" />
+
+        <Button
+            android:id="@+id/bbtn_change_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_btn"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="SIMPAN"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

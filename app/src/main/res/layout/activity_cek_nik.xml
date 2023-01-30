@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.booker.CekNIKActivity"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/incl_header_00"
+        layout="@layout/header_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/svContent"
+        android:layout_below="@+id/incl_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cek NIK"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textStyle="bold"/>
+
+            <!--status-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data NIK sudah ada"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorAccent"
+                />
+
+            <!--no ktp-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. KTP/ NIK Kordinator"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_ktp_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12345678901234"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--nama kordinator-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Kordinator (Sesuai KTP)"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_name_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dewi Sandra"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--nama pangilan-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Panggilan"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_nickname_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dewi"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--no tlp kordinator-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Telepon Kordinator"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_phone_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="621234567890"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--alamat kordinator-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat Kordinator"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_address_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pondok Aren / Perigi Baru"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--kordinat-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kordinat"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_cordinat_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--catatan lokasi alamat-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catatan Lokasi Alamat"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txvw_note_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depan Balai Desa"
+                android:layout_marginBottom="8dp"
+                />
+
+            <!--button-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btnSimpan"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/ripple_btn"
+                    android:text="Menggunakan Data Ini"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/btnBatal"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple_btn_cancel"
+                    android:text="Tidak"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="16sp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

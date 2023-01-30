@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_standard" android:id="@+id/incl_header_00"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/incl_header_00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Tanggal Demo"
+            android:textSize="14sp"
+            android:textColor="#de000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:id="@+id/lnly_date_00"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_ev"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="4dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="8dp">
+            <TextView
+                android:id="@+id/txvw_date_00"
+                android:textSize="16sp"
+                android:text="2019-01-01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_calendar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabSelectedTextColor="@color/colorPrimaryDark"
+            app:tabTextColor="#80000000"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>

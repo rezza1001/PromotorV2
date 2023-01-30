@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/177485918/promotorv2.iml" filepath="$PROJECT_DIR$/.idea/modules/177485918/promotorv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/promotorv2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/promotorv2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/promotorv2.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/promotorv2.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/promotorv2.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/promotorv2.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/promotorv2.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/promotorv2.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.iml" filepath="$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.main.iml" filepath="$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/388985349/promotorv2.modulppob.unitTest.iml" />
+    </modules>
+  </component>
+</project>

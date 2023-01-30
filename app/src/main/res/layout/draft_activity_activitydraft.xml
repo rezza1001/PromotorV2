@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rvly_header_00"
+        android:background="@drawable/shadow_header"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <ImageView
+            android:id="@+id/imvw_back_00"
+            android:src="@drawable/ic_arrow_back"
+            android:padding="14dp"
+            android:layout_width="56dp"
+            android:layout_height="56dp"/>
+        <TextView
+            android:text="Draft"
+            android:fontFamily="@font/work_sans"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/imvw_back_00"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/rvly_header_00"
+        android:layout_above="@+id/rvly_bottom_00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvw_data_00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rvly_bottom_00"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mrly_action_00"
+            app:mrl_rippleOverlay="true"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="UPLOAD DRAFT"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

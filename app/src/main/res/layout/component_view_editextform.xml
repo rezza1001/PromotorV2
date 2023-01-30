@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txip_00"
+       style="@style/TextInputLineBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtx_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="text"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:paddingStart="1dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="5dp"
+            android:lines="1"
+            android:textSize="16sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rvly_select_00"
+        android:layout_alignTop="@+id/txip_00"
+        android:layout_alignBottom="@+id/txip_00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rvly_readonly_00"
+        android:layout_alignTop="@+id/txip_00"
+        android:layout_alignBottom="@+id/txip_00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

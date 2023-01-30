@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Promotor V2</string>
+    <string name="app_client">Wadaro</string>
+
+    <!--login-->
+    <string name="nik">NIK</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="lupa_password">Lupa Password</string>
+
+    <!--lupa password-->
+    <string name="lp_note1">Password baru akan dikirim ke alamat email yang terdaftar</string>
+    <string name="reset_password">Reset Password</string>
+
+    <!--dialog-->
+    <string name="ok">Ok</string>
+    <string name="cancel">Batal</string>
+    <string name="title">Title</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--data booking tab -->
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wadaro.promotor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        tools:replace="android:theme"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- map wadaro -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAObEAyGg8ce0PgTmopNqyfjdRqhAPi6Dg" />
+
+        <activity android:name=".ui.auth.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wadaro.promotor.ui.auth.LoginActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ui.auth.ForgotPwdActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.home.HomePageActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.account.ChangePhotoActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.product.DetailProductActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.product.PrviewActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.DetailDemoActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.ChangeCoorActivity"  android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.MapsAddrActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.ProcessMainActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.ProcessMenuActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.ProductInfoActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.jp.AddJPActivity" android:windowSoftInputMode="adjustNothing|stateHidden" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.SalesOrderActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.SalesOrder2Activity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.SummaryOrderActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.report.ReportActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.report.DetailActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.booker.CreateDemoActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.booker.CekNIKActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".UpdateAppsActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.account.ChangePasswodActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.draft.DraftSurveyActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.order.SalesOrderDetail" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.commission.CommissionActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.demo.process.EditCoordinatorActivity" android:screenOrientation="nosensor" />
+        <activity android:name="com.rentas.ppob.settings.pin.CreateNewPinActivity" android:screenOrientation="nosensor" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/lnly_body_00"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/txvw_date_00"
+                android:text="Tanggal Kirim"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <View
+                android:background="#00000000"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txvw_qty_00"
+                android:text="Jumlah Unit"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <View
+                android:background="#00000000"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txvw_commission_00"
+                android:text="Insetif Langsung"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#de000000"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

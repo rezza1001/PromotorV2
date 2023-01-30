@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-auth:20.0.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/3335a428ff2eb2e1cac6b8782aef4e50/play-services-auth-20.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/3335a428ff2eb2e1cac6b8782aef4e50/play-services-auth-20.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/3335a428ff2eb2e1cac6b8782aef4e50/play-services-auth-20.0.1/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/3335a428ff2eb2e1cac6b8782aef4e50/play-services-auth-20.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/3335a428ff2eb2e1cac6b8782aef4e50/play-services-auth-20.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/3335a428ff2eb2e1cac6b8782aef4e50/play-services-auth-20.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.google.android.gms/play-services-auth/20.0.1/b3a08c387d1881fa68ba39bcfda91815bad81a46/play-services-auth-20.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

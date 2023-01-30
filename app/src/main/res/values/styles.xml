@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/work_sans</item>
+    </style>
+
+    <style name="AppTheme.transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TextInputLineBlue" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="hintTextColor">@color/editext_blue</item>
+        <item name="android:textColorHint">#de747474</item>
+        <item name="boxStrokeColor">#1476cf</item>
+        <item name="colorControlHighlight">@color/color_red</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ff233e</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

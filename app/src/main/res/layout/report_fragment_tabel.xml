@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.demo.TabelFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:background="#28000000"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp">
+                        <TextView
+                            android:text="Demo"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"/>
+                        <TextView
+                            android:text="Jam"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:text="Koodinator"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:text="Alamat"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:text="Status"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcvw_data_00"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/txvw_size_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total ada 0 titik booking"
+                android:layout_marginTop="8dp"
+                android:gravity="right" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

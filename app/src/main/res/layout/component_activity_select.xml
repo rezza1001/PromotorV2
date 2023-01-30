@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvw_gov_00"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/rvly_header_00"
+        android:background="@drawable/shadow_header"
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+        <RelativeLayout
+            android:id="@+id/rvly_header_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/mrly_back_00"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleHover="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imvw_back_00"
+                    android:src="@drawable/ic_arrow_back"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+            <EditText
+                android:id="@+id/edtx_search_00"
+                android:textSize="18sp"
+                android:hint="Cari"
+                android:textColor="@color/white"
+                android:textColorHint="#66ffffff"
+                android:background="@drawable/editext_transparent"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/mrly_back_00"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

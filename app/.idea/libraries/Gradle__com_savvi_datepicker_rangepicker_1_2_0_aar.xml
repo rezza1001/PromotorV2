@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="Gradle: com.savvi.datepicker:rangepicker:1.2.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/5bcd56908d9a8bb2b39137e02d518c6e/jetified-rangepicker-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/5bcd56908d9a8bb2b39137e02d518c6e/jetified-rangepicker-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/init.d/caches/transforms-2/files-2.1/5bcd56908d9a8bb2b39137e02d518c6e/jetified-rangepicker-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/6545351bcacab3bbf031a839c9f43d26/jetified-rangepicker-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/6545351bcacab3bbf031a839c9f43d26/jetified-rangepicker-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/transforms-2/files-2.1/6545351bcacab3bbf031a839c9f43d26/jetified-rangepicker-1.2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/768d0f9f4c783c073d8a71720ee640d0/jetified-rangepicker-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/768d0f9f4c783c073d8a71720ee640d0/jetified-rangepicker-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/768d0f9f4c783c073d8a71720ee640d0/jetified-rangepicker-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/c7a9bda6a21570200b01f1fb3f8ce277/rangepicker-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/c7a9bda6a21570200b01f1fb3f8ce277/rangepicker-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-5.4.1/caches/transforms-2/files-2.1/c7a9bda6a21570200b01f1fb3f8ce277/rangepicker-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/c7a9bda6a21570200b01f1fb3f8ce277/rangepicker-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/c7a9bda6a21570200b01f1fb3f8ce277/rangepicker-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/transforms-2/files-2.1/c7a9bda6a21570200b01f1fb3f8ce277/rangepicker-1.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/modules-2/files-2.1/com.savvi.datepicker/rangepicker/1.2.0/d16a177d39f1b0a650168dd2599ce1f583583808/rangepicker-1.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.savvi.datepicker/rangepicker/1.2.0/d16a177d39f1b0a650168dd2599ce1f583583808/rangepicker-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../gradle/gradle-6.3/caches/modules-2/files-2.1/com.savvi.datepicker/rangepicker/1.2.0/e7af774b206101d055d9f1b8b3d9fe6ed89ed0bb/rangepicker-1.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../config/gradle-6.3/caches/modules-2/files-2.1/com.savvi.datepicker/rangepicker/1.2.0/e7af774b206101d055d9f1b8b3d9fe6ed89ed0bb/rangepicker-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

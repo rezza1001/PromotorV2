@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#B3000000"
+    android:id="@+id/lnly_root_00"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/rvly_body_00"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imvw_success_00"
+            android:src="@drawable/ic_success"
+            android:layout_centerHorizontal="true"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <TextView
+            android:id="@+id/txvw_desc_00"
+            android:layout_below="@+id/imvw_success_00"
+            android:layout_centerHorizontal="true"
+            android:text="Description"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#de000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mrly_action_00"
+            android:layout_below="@+id/txvw_desc_00"
+            app:mrl_rippleOverlay="true"
+            android:background="@drawable/button_success"
+            app:mrl_rippleRoundedCorners="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:text="SELESAI"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
