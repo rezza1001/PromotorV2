@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_activity"
+    android:layout_height="match_parent"
+    tools:context=".settings.pin.ActivationActivity">
+
+    <com.rentas.ppob.component.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_below="@+id/header_view"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Silahkan buat PIN untuk melakukan transaksi"
+                android:fontFamily="@font/roboto"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:background="#fff5e5"
+                android:textColor="@color/font_color"
+                android:paddingBottom="10dp"
+                android:paddingEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txvw_olpPin"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/font_color"
+                android:text="Pin Lama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:id="@+id/rvly_oldPin"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp">
+
+                <EditText
+                    android:id="@+id/edtx_oldPin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Masukan 6 digit PIN"
+                    android:inputType="numberPassword"
+                    android:maxLength="6"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/font_color"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imvw_showOld"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"
+                    android:src="@drawable/ic_eye_off" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txvw_newPin"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/font_color"
+                android:text="Pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:id="@+id/rvly_newPin"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp">
+
+                <EditText
+                    android:id="@+id/edtx_newPin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Masukan 6 digit PIN"
+                    android:inputType="numberPassword"
+                    android:maxLength="6"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/font_color"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imvw_show"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"
+                    android:src="@drawable/ic_eye_off" />
+            </RelativeLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/font_color"
+                android:text="Konfirmasi Pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:id="@+id/rvly_confirm"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp">
+
+                <EditText
+                    android:id="@+id/edtx_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Masukan 6 digit PIN"
+                    android:inputType="numberPassword"
+                    android:maxLength="6"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/font_color"
+                    android:textSize="15sp" />
+                <ImageView
+                    android:id="@+id/imvw_confirm"
+                    android:layout_marginEnd="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_eye_off"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_cancel"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+                <TextView
+                    android:id="@+id/txvw_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="save"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text="Simpan"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "432825882898",
+    "firebase_url": "https://demobooker-f7ad5.firebaseio.com",
+    "project_id": "demobooker-f7ad5",
+    "storage_bucket": "demobooker-f7ad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432825882898:android:f97020f16764cbcb66fbcb",
+        "android_client_info": {
+          "package_name": "com.rentas.ppob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432825882898-7bda03h8dhonjvhehr15m3cubqkkc9hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsGYcLzNEhayIvlmw3drjfdK3oHh8whE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432825882898-7bda03h8dhonjvhehr15m3cubqkkc9hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432825882898:android:8ad99db5b296e49466fbcb",
+        "android_client_info": {
+          "package_name": "com.wadaro.erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432825882898-7bda03h8dhonjvhehr15m3cubqkkc9hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsGYcLzNEhayIvlmw3drjfdK3oHh8whE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432825882898-7bda03h8dhonjvhehr15m3cubqkkc9hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

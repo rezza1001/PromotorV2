@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_activity"
+    android:layout_height="match_parent"
+    tools:context=".MainPpobActivity">
+
+    <com.rentas.ppob.component.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@+id/header_view"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txvw_customerId"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Masukan ID Pelanggan"
+            android:fontFamily="@font/roboto"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <RelativeLayout
+                android:background="@drawable/left_input"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/edtx_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:fontFamily="@font/roboto_medium"
+                    android:hint="ID Pelanggan"
+                    android:inputType="phone"
+                    android:maxLength="20"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imvw_clean"
+                    android:src="@drawable/ic_clean"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/right_input"
+                android:layout_marginStart="2dp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:src="@drawable/ic_phonebookal"
+                    app:riv_corner_radius="3dp"
+                    android:layout_centerInParent="true"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnly_error"
+            android:visibility="invisible"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_baseline_error_24"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+            <TextView
+                android:textColor="@color/error"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txvw_error"
+                android:textSize="13sp"
+                android:text="Error Message"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="4dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="20dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <LinearLayout
+            android:id="@+id/lnly_action"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Cek Tagihan"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_arrow_forward_24"
+                android:layout_marginStart="8dp"
+                android:layout_width="25dp"
+                android:layout_height="22dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

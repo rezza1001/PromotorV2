@@ -1,0 +1,32 @@
+[
+  {
+    "code": "20000",
+    "name": "PLN Token 20.000",
+    "description": "Isi token PLN nominal 20.000"
+  },
+  {
+    "code": "50000",
+    "name": "PLN Token 50.000",
+    "description": "Isi token PLN nominal 50.000"
+  },
+  {
+    "code": "100000",
+    "name": "PLN Token 100.000",
+    "description": "Isi token PLN nominal 100.000"
+  },
+  {
+    "code": "200000",
+    "name": "PLN Token 200.000",
+    "description": "Isi token PLN nominal 200.000"
+  },
+  {
+    "code": "500000",
+    "name": "PLN Token 500.000",
+    "description": "Isi token PLN nominal 500.000"
+  },
+  {
+    "code": "1000000",
+    "name": "PLN Token 1.000.000",
+    "description": "Isi token PLN nominal 1.000.000"
+  }
+]

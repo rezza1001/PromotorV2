@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rvly_root"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginTop="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txvw_initial"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="AB"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/rvly_more"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/txvw_initial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txvw_name"
+            android:text="Name Here"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="15sp"
+            android:textColor="@color/font_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txvw_number"
+            android:text="08xxxxx"
+            android:textColor="#5A5A5A"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rvly_more"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_more_vert_24" />
+    </RelativeLayout>
+    <View
+        android:layout_below="@+id/txvw_initial"
+        android:layout_toEndOf="@+id/txvw_initial"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/border"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</RelativeLayout>

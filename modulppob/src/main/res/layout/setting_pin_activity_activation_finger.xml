@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_activity"
+    android:layout_height="match_parent"
+    tools:context=".settings.pin.ActivationActivity">
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/mrly_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/ic_back"
+            android:layout_gravity="center"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:tint="@color/black" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <ImageView
+        android:id="@+id/imvw_icon"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fingerprint_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <LinearLayout
+        android:id="@+id/lnly_body"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/imvw_icon"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Aktivasi Fingerprint"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="17sp"
+            android:textColor="@color/font_color_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/font_color"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:layout_marginTop="10dp"
+            android:text="Untuk mengaktikfan fingerprint / Sidik jari silahkan masukan PIN anda"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/lnly_node"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/pin_unselected"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <ImageView
+                android:src="@drawable/pin_unselected"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <ImageView
+                android:src="@drawable/pin_unselected"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <ImageView
+                android:src="@drawable/pin_unselected"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <ImageView
+                android:src="@drawable/pin_unselected"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <ImageView
+                android:src="@drawable/pin_unselected"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txvw_error"
+            android:text="PIN yang anda masukan salah !!"
+            android:textSize="12sp"
+            android:textColor="@color/error"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txvw_forgot"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/profile_back_color"
+        android:textSize="13sp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="10dp"
+        android:layout_above="@+id/rcvw_keypad"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Lupa PIN?"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvw_keypad"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp" />
+
+
+
+</RelativeLayout>

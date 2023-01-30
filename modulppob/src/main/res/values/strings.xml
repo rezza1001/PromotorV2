@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Wadaro PPOB</string>
+
+    <string name="app_client_id" tools:ignore="TypographyDashes">616409453200-3b2as9ntmfge4jon4rsse8uqisee8gd1.apps.googleusercontent.com</string>
+</resources>

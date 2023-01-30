@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rvly_itemSetting"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingTop="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imvw_settingIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/ic_calendar_month_24"
+        app:tint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txvw_settingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imvw_settingIcon"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Setting Item"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txvw_settingDesc"
+        android:text="Setting Item"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/font_color_black"
+        android:textSize="12sp"
+        android:layout_alignStart="@+id/txvw_settingText"
+        android:layout_below="@+id/txvw_settingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="@color/border"
+        android:layout_below="@+id/txvw_settingDesc"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+</RelativeLayout>

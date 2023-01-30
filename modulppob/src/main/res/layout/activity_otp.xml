@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rvly_header"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/mrly_back"
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/white" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Verifikasi OTP"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imvw_otp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/rvly_header"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_otp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:tint="@color/white" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_below="@+id/imvw_otp"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txvw_sendTye"
+                android:textSize="15sp"
+                android:textColor="#deffffff"
+                android:fontFamily="@font/roboto"
+                android:layout_marginBottom="3dp"
+                android:text="Kode OTP telah dikirm melaui X1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txvw_number"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="15sp"
+                android:text="Rezza.dev2@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:text="Silahkan cek email anda kemudian memasukkan 6 digit kode verifikasi yang kami kirimkan"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto"
+        android:textSize="14sp"
+        android:textColor="@color/font_color_black"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtx_otp"
+        android:gravity="center"
+        android:hint="******"
+        android:background="@drawable/editext_otp"
+        android:inputType="phone"
+        android:maxLength="6"
+        android:letterSpacing="1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:digits="1234567890"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txvw_error"
+        android:textColor="@color/error"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Invalid OTP"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#6D6D6D"
+            android:textSize="14sp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Kirim ulang dalam Waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txvw_count"
+            android:text="01:59"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/mrly_resend"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#33000000"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="16sp"
+            android:text="Kirim Ulang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>
