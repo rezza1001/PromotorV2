@@ -261,6 +261,7 @@ public class SalesOrder2Activity extends MyActivity {
                         mOrderData.add(bundle);
                     }
 
+
                     ArrayList<Bundle> consumerBundle = new ArrayList<>();
                     for (int i=0; i<consumers.length(); i++){
                         JSONObject consume = consumers.getJSONObject(i);
@@ -466,7 +467,7 @@ public class SalesOrder2Activity extends MyActivity {
         for (Bundle bundle : mOrderData){
             String consument = bundle.getString("consumen_id");
             assert consument != null;
-            if (consument.equals(jp+spnr_jp_00.getValueSelected())){
+            if (consument.contains(jp)){
                 totalOrderJp ++;
                 if (Objects.equals(bundle.getString("product_id"), product)){
                     existProduct = true;

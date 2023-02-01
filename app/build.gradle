@@ -8,8 +8,8 @@ android {
         applicationId "com.wadaro.promotor"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 33
-        versionName "promotor v.2.33"
+        versionCode 34
+        versionName "promotor v.2.34"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
